@@ -1,3 +1,4 @@
+#Entender como funcionas lo valores booleanos en python
 
 is_single = True
 print(type(is_single))

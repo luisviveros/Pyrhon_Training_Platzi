@@ -1,6 +1,12 @@
 #Proyecto del training (PIEDRA PAPEL O TIJERA)
 
 user_option = input ('piedra, papel o tijera => ')
+
+#Este metodo .lower lo que haces es que el input no importa
+#Como lo pongas en mayusculas o minusculas lo covierte a
+#minusculas
+
+user_option = user_option.lower()
 computer_option = 'papel'
 
 if user_option == computer_option:
